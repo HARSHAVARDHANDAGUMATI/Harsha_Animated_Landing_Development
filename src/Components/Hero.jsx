@@ -39,9 +39,13 @@ function Hero() {
             variants={slideInLeft}
             className="mt-7 max-w-3xl font-['Sora'] text-5xl font-semibold leading-[1.05] text-balance sm:text-6xl lg:text-7xl"
           >
-            We create
-            <span className="gradient-text"> {typedWord || 'immersive'} </span>
-            digital experiences people feel in their chest.
+            <span className="block">We create</span>
+            <span className="gradient-text block min-h-[1.1em] min-w-[12ch] whitespace-nowrap">
+              {typedWord || 'magnetic'}
+            </span>
+            <span className="block">digital experiences</span>
+            <span className="block">people feel in</span>
+            <span className="block">their chest.</span>
           </motion.h1>
 
           <motion.p variants={fadeUp} className="mt-7 max-w-2xl text-lg leading-8 text-[var(--text-secondary)] sm:text-xl">
